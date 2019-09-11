@@ -2,11 +2,13 @@
 
 
 html,body{
+    color:#333;
     height: 100%;
     width: 100%;
 }
 
 .nav{
+    color:#444;
     height: 50px;
     list-style: none;
     background-color: red;
