@@ -1,6 +1,6 @@
 import React,{Component} from 'react'
 import {connect} from 'react-redux'
-import './index.less'
+import Style from './index.less'
 
  class A extends Component{
     constructor(props){
@@ -13,8 +13,8 @@ import './index.less'
     render(){
         
         return(
-            <div>AAAAAAAAAAAAAAA<br/>
-                num ---->{this.props.num}  <br/>
+            <div className={Style.ABox}>AAAAAAAAAAAAAAA<br/>
+                num ----{this.props.num}  <br/>
                 <button onClick={this.props.add}>add</button>
                 <button onClick={this.props.del}>del</button>
             </div>
